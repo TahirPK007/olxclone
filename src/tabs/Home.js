@@ -147,6 +147,17 @@ const Home = ({}) => {
                     {item.price}
                   </Text>
                 </View>
+                <TouchableOpacity
+                  style={{
+                    position: 'absolute',
+                    right: 20,
+                    top: 20,
+                  }}>
+                  <Image
+                    source={require('../images/wishlist.png')}
+                    style={{height: 25, width: 25, tintColor: 'black'}}
+                  />
+                </TouchableOpacity>
               </TouchableOpacity>
             );
           }}
